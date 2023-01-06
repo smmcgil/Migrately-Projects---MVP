@@ -1,0 +1,106 @@
+.background_1 {
+  background-image: radial-gradient(#40e0d0, #44b1fa);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 4rem 1fr 4rem;
+}
+
+.center {
+  padding-top: 11%;
+  margin: auto;
+}
+
+
+.question_banner {
+  color: white;
+  font-family: "Verdana";
+  font-size: 2.5vw;
+  text-shadow: 2px 2px 5px rgba(16, 38, 53, 0.966);
+}
+
+.questionnaire_button {
+  background-image: radial-gradient(rgb(100, 130, 200), #754ffe);
+  font-family: "Verdana";
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 14px;
+  white-space: nowrap;
+  min-width: 300px;
+  transition: all 0.33s;
+  cursor: pointer;
+  margin-top: 18px;
+  margin-bottom: 9px;
+  margin-right: 30px;
+  margin-left: 30px;
+  box-shadow: 0 15px 25px -10px rgba(0, 0, 0, .7);
+}
+
+
+.questionnaire_button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.33s;
+}
+
+.questionnaire_button:after {
+  content: url(../../assets/images/migrately/migrately-logo-icon.png);
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.33s;
+}
+
+.questionnaire_button:hover {
+  right: 5px;
+  top: 2px;
+  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, .7);
+  transition: 0.33s;
+}
+
+.questionnaire_button:hover:after {
+  opacity: 1;
+  right: 10px;
+  transition: 0.2s;
+}
+
+.float_effect {
+  position: relative;
+  box-shadow: 0 15px 25px -10px rgba(0, 0, 0, .7);
+  transition: all 0.33s;
+}
+
+.float_effect:hover {
+  right: 2px;
+  top: 2px;
+  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, .7);
+  transition: 0.33s;
+}
+
+.questionnaire_dropdown {
+  min-width: 300px;
+  font-family: "Verdana";
+  font-size: 20px;
+  overflow: auto;
+  max-height: 200px;
+}
+
+.questionnaire_response {
+  color: white;
+  font-family: "Verdana";
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, .7);
+  text-shadow: 2px 2px 5px rgb(16 38 53 / 97%);
+  background: rgba(100, 25, 140, 0.5);
+  border-radius: 10px;
+  padding: 25px;
+  overflow: auto;
+  max-height: 370px;
+}
+
+.questionnaire_text_color_white{
+  color: white;
+}
